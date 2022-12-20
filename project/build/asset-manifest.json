@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cedric-portfolio/static/css/main.9c88ab6b.css",
+    "main.js": "/cedric-portfolio/static/js/main.ef970bb3.js",
+    "static/media/bkhome.jpg": "/cedric-portfolio/static/media/bkhome.bb93da87cb54dc2c8c5b.jpg",
+    "static/media/slick.svg": "/cedric-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/cedric-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/cedric-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/cedric-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/cedric-portfolio/index.html",
+    "main.9c88ab6b.css.map": "/cedric-portfolio/static/css/main.9c88ab6b.css.map",
+    "main.ef970bb3.js.map": "/cedric-portfolio/static/js/main.ef970bb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c88ab6b.css",
+    "static/js/main.ef970bb3.js"
+  ]
+}
