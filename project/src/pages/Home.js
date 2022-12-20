@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Particle from "../components/Particle";
 import Socialicons from "../components/Socialicons";
 import Spinner from "../components/Spinner";
-import background from '../images/bk_home.jpg'
+import background from '../images/bkhome.jpg'
 
 function Home({ lightMode }) {
   const [information, setInformation] = useState("");
@@ -19,7 +19,7 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Home - Chester React Personal Portfolio Template</title>
+        <title>Personal Portfolio</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template Homepage"
@@ -42,8 +42,8 @@ function Home({ lightMode }) {
               <div className="col-lg-10 col-12">
                 <div className="mi-home-content">
                   <h1>
-                    Hi, I am{" "}
-                    <span className="color-theme">Cedric Douillard</span>
+                    Hi, I am
+                    <span className="color-theme"> Cedric Douillard</span>
                   </h1>
                   <p>{information.aboutContent}</p>
                   {/*<Socialicons bordered />*/}

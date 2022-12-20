@@ -20,9 +20,9 @@ const database = {
       dribbble: '',
       github: 'https://github.com'
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image.jpg',
+    brandImage: '/cedric-portfolio/images/brand-image.jpg',
+    aboutImage: '/cedric-portfolio/images/about-image.jpg',
+    aboutImageLg: '/cedric-portfolio/images/about-image.jpg',
     cvfile: '/files/empty.pdf'
   },
   services: [
@@ -126,17 +126,17 @@ const database = {
       id: 1,
       title: "Home Page",
       subtitle: ["Easy to read", 'High Quality block images selected by the publisher','Seperated each topics into navigation' ],
-      imageUrl: "/images/portfolio-image-1.png",
-      largeImageUrl: ["/images/portfolio-image-1.png"],
+      imageUrl: "/cedric-portfolio/images/portfolio-image-1.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-1.png"],
       url: 'https://njanchor.com/'
     },
     {
       id: 2,
       title: "Explore Publishers",
       subtitle: ["Follow publishers that relates to you", "Followed publishers will be easy to access on the sidebar"],
-      imageUrl: "/images/portfolio-image-2.png",
+      imageUrl: "/cedric-portfolio/images/portfolio-image-2.png",
       largeImageUrl: [
-        "/images/portfolio-image-2.png"
+        "/cedric-portfolio/images/portfolio-image-2.png"
       ],
 url: 'https://njanchor.com/'    },
     {
@@ -149,9 +149,9 @@ url: 'https://njanchor.com/'    },
           "Ability to like article",
           "Ability to comment and like comments"
       ],
-      imageUrl: "/images/portfolio-image-3.png",
+      imageUrl: "/cedric-portfolio/images/portfolio-image-3.png",
       largeImageUrl: [
-        "/images/portfolio-image-3.png"
+        "/cedric-portfolio/images/portfolio-image-3.png"
       ],
 url: 'https://njanchor.com/'    },
     {
@@ -163,9 +163,9 @@ url: 'https://njanchor.com/'    },
           'Ability to change the way you sign in',
           'Ability to delete account'
       ],
-      imageUrl: "/images/portfolio-image-4.png",
+      imageUrl: "/cedric-portfolio/images/portfolio-image-4.png",
       largeImageUrl: [
-        "/images/portfolio-image-4.png"
+        "/cedric-portfolio/images/portfolio-image-4.png"
       ],
 url: 'https://njanchor.com/'    },
     {
@@ -173,8 +173,8 @@ url: 'https://njanchor.com/'    },
       title: "Settings / Password",
       subtitle: ["Ability to change password",
         'HtmlEmail is used to send reset password link'],
-      imageUrl: "/images/portfolio-image-5.png",
-      largeImageUrl: ["/images/portfolio-image-5.png"],
+      imageUrl: "/cedric-portfolio/images/portfolio-image-5.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-5.png"],
 url: 'https://njanchor.com/'    },
     {
       id: 6,
@@ -183,8 +183,8 @@ url: 'https://njanchor.com/'    },
           "Ability to change weather",
           "Ability to change topics in the home page"
       ],
-      imageUrl: "/images/portfolio-image-6.png",
-      largeImageUrl: ["/images/portfolio-image-6.png"],
+      imageUrl: "/cedric-portfolio/images/portfolio-image-6.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-6.png"],
       url: 'https://njanchor.com/'
     },
     {
@@ -192,15 +192,15 @@ url: 'https://njanchor.com/'    },
       title: "Studio",
       subtitle: [
           "Published & Drafts articles are all save in your studio", "Ability to see ho many people are following you"],
-      imageUrl: "/images/portfolio-image-7.png",
-      largeImageUrl: ["/images/portfolio-image-7.png"],
+      imageUrl: "/cedric-portfolio/images/portfolio-image-7.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-7.png"],
 url: 'https://njanchor.com/'    },
     {
       id: 8,
       title: "Studio / Published Info",
       subtitle:["Visualize how many users are viewing, commenting & liking your articles"],
-      imageUrl: "/images/portfolio-image-8.png",
-      largeImageUrl: ["/images/portfolio-image-8.png"]
+      imageUrl: "/cedric-portfolio/images/portfolio-image-8.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-8.png"]
     },
     {
       id: 9,
@@ -208,8 +208,8 @@ url: 'https://njanchor.com/'    },
       subtitle: [ "Ability to select own images (API filter out inappropriate images upon submit)",
         "Autosave implemented when typing",
       ],
-      imageUrl: "/images/portfolio-image-9.png",
-      largeImageUrl: ["/images/portfolio-image-9.png"],
+      imageUrl: "/cedric-portfolio/images/portfolio-image-9.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio-image-9.png"],
       url: 'https://njanchor.com/'
     },
   ],

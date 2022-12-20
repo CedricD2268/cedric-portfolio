@@ -77,7 +77,7 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://nuclearthemes.com"
+              href="https://cedricd2268.github.io/cedric-portfolio/"
             >
               CedricPortfolio
             </a>

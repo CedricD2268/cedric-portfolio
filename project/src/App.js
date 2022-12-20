@@ -41,7 +41,10 @@ function App() {
       {/*    onClick={() => handleMode()}*/}
       {/*  ></button>*/}
       {/*</div>*/}
+
       <Routes>
+
+
         <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="about" element={<About />} />
         <Route path="resume" element={<Resumes />} />
