@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/cedric-portfolio"}>
       {/*<div className="light-mode">*/}
       {/*  <span className="icon">*/}
       {/*    <Icon.Sun />*/}
