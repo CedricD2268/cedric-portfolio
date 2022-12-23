@@ -23,7 +23,7 @@ const database = {
     brandImage: '/cedric-portfolio/images/brand-image.jpg',
     aboutImage: '/cedric-portfolio/images/about-image.jpg',
     aboutImageLg: '/cedric-portfolio/images/about-image.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/cedric-portfolio/files/resume.pdf'
   },
   services: [
     {
