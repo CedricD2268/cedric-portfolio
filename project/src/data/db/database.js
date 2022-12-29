@@ -125,7 +125,7 @@ const database = {
     {
       id: 1,
       title: "Home Page",
-      subtitle: ["Easy to read", 'High Quality block images selected by the publisher','Seperated each topics into navigation' ],
+      subtitle: ["Easy to read.", 'High Quality block images selected by the publisher.','Seperated each topics into navigation.' ],
       imageUrl: "/cedric-portfolio/images/portfolio-image-1.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-1.png"],
       url: 'https://njanchor.com/'
@@ -133,7 +133,7 @@ const database = {
     {
       id: 2,
       title: "Explore Publishers",
-      subtitle: ["Follow publishers that relates to you", "Followed publishers will be easy to access on the sidebar"],
+      subtitle: ["Follow publishers that relates to you.", "Followed publishers will be easy to access on the sidebar."],
       imageUrl: "/cedric-portfolio/images/portfolio-image-2.png",
       largeImageUrl: [
         "/cedric-portfolio/images/portfolio-image-2.png"
@@ -143,11 +143,11 @@ url: 'https://njanchor.com/'    },
       id: 3,
       title: "Article",
       subtitle: [
-          "Read or listen to written article",
-          'Ability to share article',
-          "Ability to add article to your own created collection",
-          "Ability to like article",
-          "Ability to comment and like comments"
+          "Read or listen to written article.",
+          'Ability to share article.',
+          "Ability to add article to your own created collection.",
+          "Ability to like article.",
+          "Ability to comment and like comments."
       ],
       imageUrl: "/cedric-portfolio/images/portfolio-image-3.png",
       largeImageUrl: [
@@ -158,10 +158,10 @@ url: 'https://njanchor.com/'    },
       id: 4,
       title: "Settings",
       subtitle: [
-          "Ability to upload own avatar",
-          'Ability to change name or username',
-          'Ability to change the way you sign in',
-          'Ability to delete account'
+          "Ability to upload own avatar.",
+          'Ability to change name or username.',
+          'Ability to change the way you sign in.',
+          'Ability to delete account.'
       ],
       imageUrl: "/cedric-portfolio/images/portfolio-image-4.png",
       largeImageUrl: [
@@ -171,8 +171,8 @@ url: 'https://njanchor.com/'    },
     {
       id: 5,
       title: "Settings / Password",
-      subtitle: ["Ability to change password",
-        'HtmlEmail is used to send reset password link'],
+      subtitle: ["Ability to change password.",
+        'HtmlEmail is used to send reset password link.'],
       imageUrl: "/cedric-portfolio/images/portfolio-image-5.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-5.png"],
 url: 'https://njanchor.com/'    },
@@ -180,8 +180,8 @@ url: 'https://njanchor.com/'    },
       id: 6,
       title: "Settings / Customize",
       subtitle: [
-          "Ability to change weather",
-          "Ability to change topics in the home page"
+          "Ability to change weather.",
+          "Ability to change topics in the home page."
       ],
       imageUrl: "/cedric-portfolio/images/portfolio-image-6.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-6.png"],
@@ -191,22 +191,22 @@ url: 'https://njanchor.com/'    },
       id: 7,
       title: "Studio",
       subtitle: [
-          "Published & Drafts articles are all save in your studio", "Ability to see ho many people are following you"],
+          "Published & Drafts articles are all save in your studio.", "Ability to see ho many people are following you."],
       imageUrl: "/cedric-portfolio/images/portfolio-image-7.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-7.png"],
 url: 'https://njanchor.com/'    },
     {
       id: 8,
       title: "Studio / Published Info",
-      subtitle:["Visualize how many users are viewing, commenting & liking your articles"],
+      subtitle:["Visualize how many users are viewing., commenting & liking your articles."],
       imageUrl: "/cedric-portfolio/images/portfolio-image-8.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-8.png"]
     },
     {
       id: 9,
       title: "Studio / Editor",
-      subtitle: [ "Ability to select own images (API filter out inappropriate images upon submit)",
-        "Autosave implemented when typing",
+      subtitle: [ "Ability to select own images (API filter out inappropriate images upon submit).",
+        "Autosave implemented when typing.",
       ],
       imageUrl: "/cedric-portfolio/images/portfolio-image-9.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-9.png"],
