@@ -117,7 +117,7 @@ function About() {
                     )}
                     {!information.age ? null : (
                       <li>
-                        <b>Age</b> {information.age} Years
+                        {/*<b>Age</b> {information.age} Years*/}
                       </li>
                     )}
                     {!information.phone ? null : (

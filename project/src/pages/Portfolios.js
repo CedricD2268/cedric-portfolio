@@ -7,6 +7,8 @@ import PortfoliosView from "../components/PortfoliosView";
 import Sectiontitle from "../components/Sectiontitle";
 import Spinner from "../components/Spinner";
 import styled from "styled-components";
+import {BsGithub} from "react-icons/bs";
+import {HiExternalLink} from "react-icons/hi";
 
 const AppInfoDiv = styled.div`
   font-family: "Nunito", sans-serif !important;
@@ -55,7 +57,7 @@ function Portfolios() {
         <title>Portfolios - Chester React Personal Portfolio Template</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Portfolios Page"
+          content="Personal Portfolio Template Portfolios Page"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
@@ -64,7 +66,19 @@ function Portfolios() {
           <div className="container">
             <Sectiontitle title="Portfolio" />
             <AppInfoDiv>
-              <h3>New Jersey Anchor</h3>
+              <div style={{display: 'flex', flexDirection:'row', alignItems:'center', gap: '10px'}}>
+                <h3>New Jersey Anchor</h3>
+                <button style={{borderRadius: '10px'}}
+                        onClick={(e)=>{e.preventDefault();
+                window.location.href='https://github.com/CedricD2268/Anchor_News_Project'}}>
+                  <BsGithub size={25}/>
+                </button>
+                <button style={{borderRadius: '10px'}} onClick={(e)=>{e.preventDefault();
+                window.location.href='https://njanchor.com/accounts/login'}}>
+                  <HiExternalLink size={25}/>
+                </button>
+              </div>
+
               <span>
                 CRUD Application which handles news or stories consumption in a modern way.
                 Application is meant to replicate how an organization might handle news or stories told by professional journalists.
