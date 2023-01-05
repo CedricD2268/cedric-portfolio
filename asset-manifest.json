@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cedric-portfolio/static/css/main.9c88ab6b.css",
-    "main.js": "/cedric-portfolio/static/js/main.d2077885.js",
+    "main.js": "/cedric-portfolio/static/js/main.edb4a658.js",
     "static/media/bkhome.jpg": "/cedric-portfolio/static/media/bkhome.bb93da87cb54dc2c8c5b.jpg",
     "static/media/slick.svg": "/cedric-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/cedric-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/cedric-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cedric-portfolio/index.html",
     "main.9c88ab6b.css.map": "/cedric-portfolio/static/css/main.9c88ab6b.css.map",
-    "main.d2077885.js.map": "/cedric-portfolio/static/js/main.d2077885.js.map"
+    "main.edb4a658.js.map": "/cedric-portfolio/static/js/main.edb4a658.js.map"
   },
   "entrypoints": [
     "static/css/main.9c88ab6b.css",
-    "static/js/main.d2077885.js"
+    "static/js/main.edb4a658.js"
   ]
 }
