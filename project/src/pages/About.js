@@ -158,23 +158,6 @@ function About() {
             </div>
           </div>
         </div>
-        {/*<div className="mi-service-area mi-section mi-padding-top">*/}
-        {/*  <div className="container">*/}
-        {/*    <Sectiontitle title="Services" />*/}
-        {/*    <div className="mi-service-wrapper">*/}
-        {/*      <div className="row mt-30-reverse">*/}
-        {/*        {services.map((service) => (*/}
-        {/*          <div*/}
-        {/*            className="col-lg-4 col-md-6 col-12 mt-30"*/}
-        {/*            key={service.title}*/}
-        {/*          >*/}
-        {/*            <Service content={service} />*/}
-        {/*          </div>*/}
-        {/*        ))}*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
 
       </Suspense>
     </Layout>
