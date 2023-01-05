@@ -104,9 +104,8 @@ function About() {
 
                   <p>
                     College introduced me to software development and how database play a huge part of that process.
-                    Now I consider myself an experienced web developer or full stack developer.
-                    I design my projects using react, node js, digital ocean services.
-                    I think my project introduces me as a developer better than my words.
+                    My eagerness and ongoing dedication to learn more I have developed a proficient working knowledge of designing and developing websites.
+                    Now I am an all-around web developer with a great eye for design and good knowledge about creating an interactive and responsive application on the web.
                     Apart from that I'm a big basketball fan and a Knicks fan unfortunately.
                   </p>
                   <ul>
@@ -152,7 +151,7 @@ function About() {
                     {/*)}*/}
                   </ul>
                   <a href={information.cvfile} className="mi-button">
-                    Download CV
+                    Download Resume
                   </a>
                 </div>
               </div>
