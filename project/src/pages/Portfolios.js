@@ -80,8 +80,7 @@ function Portfolios() {
               </div>
 
               <span>
-                CRUD Application which handles news or stories consumption in a modern way.
-                Application is meant to replicate how an organization might handle news or stories told by professional journalists.
+                Application is entirely built by me, and it is meant to replicate and enhanced how an organization might handle news or stories told by professional journalists and also stories or blog told by non-journalist.
               </span>
 
               <span>Tools used for application:</span>

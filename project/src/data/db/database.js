@@ -119,6 +119,14 @@ const database = {
     {
       title: "DigitalOcean Services",
       value: 70
+    },
+    {
+      title: "Git",
+      value: 80
+    },
+    {
+      title: "Webpack",
+      value: 70
     }
   ],
   portfolios: [
@@ -223,8 +231,8 @@ url: 'https://njanchor.com/'    },
         details: [
             "Fixed & Manage computer systems, relevant operating systems and software. ",
             "Provided on-site or remote support for school staff, ensuring that everyone have the technology they need to complete their work.",
-            "Efficient troubleshooting abilities",
-            "Anticipate and report the cost of replacing or updating computer systems or software"
+            "Reduced the burden on teachers by developing a management system which indicate which computers is assign to which computer cart (A mobile computer charging station which usually holds 10-20 computers).",
+            "Anticipated and reported the cost of replacing or updating computer systems or software, which help reduced the cost of unnecessary spending and more money for needed school supplies for student and teachers."
         ]
       },
     ],
@@ -235,9 +243,12 @@ url: 'https://njanchor.com/'    },
         graduation: "Bachelor of Technology",
         university: "New York City College Of Technology",
         details: [
-            "Studied Data Structures",
-            "Learn and work on Database Management Systems.",
-            "Learn Application Development with Database"
+            "Learn how a database should be structured using schemas.",
+            "Learn and managed Database on the cloud.",
+            "Learn and developed Application with Database.",
+            "Experience building and fetching REST APIs.",
+            "Performed coding, debugging and unit testing tasks with JEST Framework in support of projects."
+
         ]
       },
       {
@@ -246,8 +257,9 @@ url: 'https://njanchor.com/'    },
         graduation: "Associate in Applied Science",
         university: "New York City College Of Technology",
         details: [
-            "Learn Programming Fundamentals",
-            "Learn UI/UX to create user friendly websites"
+            "Front-End Web Development with fundamentals (Html, CSS and JavaScript).",
+            "Developed and design UI/UX to create user friendly websites.",
+            "Developed application using Scrum project management methodology."
         ]
       },
       {

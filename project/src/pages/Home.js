@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Particle from "../components/Particle";
 import Socialicons from "../components/Socialicons";
 import Spinner from "../components/Spinner";
-import background from '../images/bkhome.jpg'
+
 
 function Home({ lightMode }) {
   const [information, setInformation] = useState("");

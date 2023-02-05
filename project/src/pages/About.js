@@ -103,10 +103,8 @@ function About() {
                   </p>
 
                   <p>
-                    College introduced me to software development and how database play a huge part of that process.
-                    My eagerness and ongoing dedication to learn more I have developed a proficient working knowledge of designing and developing websites.
+                    New York City College of Technology has helped me in my Sofware development journey and prepared me for the necessary skills that is demanded in this industry.
                     Now I am an all-around web developer with a great eye for design and good knowledge about creating an interactive and responsive application on the web.
-                    Apart from that I'm a big basketball fan and a Knicks fan unfortunately.
                   </p>
                   <ul>
                     {!information.name ? null : (
