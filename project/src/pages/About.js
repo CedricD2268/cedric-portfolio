@@ -98,13 +98,13 @@ function About() {
                     Who is <span className="color-theme">{information.name}?</span>
                   </h3>
                   <p>
-                    Building my own computer in middle school was a great learning experience in knowing how each
-                    component of a computer functions and interact with each other. That knowledge manage to get me a job working in public school fixing, rebuilding and maintaining computers.
+                    Assembling my own computer during middle school provided me with a valuable education on the functionality and interplay of various computer components.
+                    This understanding enabled me to secure a position at a public school, where I was responsible for repairing, reconstructing, and upkeeping computer systems.
                   </p>
 
                   <p>
-                    New York City College of Technology has helped me in my Sofware development journey and prepared me for the necessary skills that is demanded in this industry.
-                    Now I am an all-around web developer with a great eye for design and good knowledge about creating an interactive and responsive application on the web.
+                    The education and training I received at New York City College of Technology and Several Internships have been instrumental in my software development career, equipping me with the essential skills sought after in the industry.
+                    Today, I stand as a versatile web developer, recognized for my keen design sensibilities and my proficiency in crafting interactive and responsive web applications.
                   </p>
                   <ul>
                     {!information.name ? null : (

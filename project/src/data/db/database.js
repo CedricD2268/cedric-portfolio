@@ -219,27 +219,88 @@ url: 'https://njanchor.com/'    },
       imageUrl: "/cedric-portfolio/images/portfolio-image-9.png",
       largeImageUrl: ["/cedric-portfolio/images/portfolio-image-9.png"],
       url: 'https://njanchor.com/'
+    }
+  ],
+  portfolios2: [
+    {
+      id: 1,
+      title: "Home / Health Section",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-1.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-1.png"],
+      url: 'https://www.civilience.app/'
+    },
+    {
+      id: 2,
+      title: "Feelings Survey",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-3.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-3.png"],
+      url: 'https://www.civilience.app/'
+    },
+    {
+      id: 3,
+      title: "Feelings Survey Description",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-2.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-2.png"],
+      url: 'https://www.civilience.app/'
+    },
+    {
+      id: 4,
+      title: "Header",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-4.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-4.png"],
+      url: 'https://www.civilience.app/'
+    },
+    {
+      id: 5,
+      title: "Infectious Disease Survey (Sample)",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-5.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-5.png"],
+      url: 'https://www.civilience.app/'
+    },
+    {
+      id: 5,
+      title: "User Emotional Health Page",
+      subtitle: [],
+      imageUrl: "/cedric-portfolio/images/portfolio2-image-6.png",
+      largeImageUrl: ["/cedric-portfolio/images/portfolio2-image-6.png"],
+      url: 'https://www.civilience.app/'
     },
   ],
+
   experience: {
     workingExperience: [
+      {
+        id: 1,
+        year: "2023 - 2024",
+        position: "Frontend Developer Intern",
+        company: "Civilience",
+        details: [
+            "Collaborate with a team to create a distinctive user interface. Focus on integrating intricate surveys into the web application. Work with AWS to seamlessly integrate web services, including database management."
+        ]
+      }
+      ,
       {
         id: 1,
         year: "2016 - 2019",
         position: "IT Specialist Intern",
         company: "New York City Department of Education",
         details: [
-            "Fixed & Manage computer systems, relevant operating systems and software. ",
-            "Provided on-site or remote support for school staff, ensuring that everyone have the technology they need to complete their work.",
-            "Reduced the burden on teachers by developing a management system which indicate which computers is assign to which computer cart (A mobile computer charging station which usually holds 10-20 computers).",
-            "Anticipated and reported the cost of replacing or updating computer systems or software, which help reduced the cost of unnecessary spending and more money for needed school supplies for student and teachers."
+          "Fixed & Manage computer systems, relevant operating systems and software. ",
+          "Provided on-site or remote support for school staff, ensuring that everyone have the technology they need to complete their work.",
+          "Reduced the burden on teachers by developing a management system which indicate which computers is assign to which computer cart (A mobile computer charging station which usually holds 10-20 computers).",
+          "Anticipated and reported the cost of replacing or updating computer systems or software, which help reduced the cost of unnecessary spending and more money for needed school supplies for student and teachers."
         ]
       },
     ],
     educationExperience: [
       {
         id: 1,
-        year: "Expected 2023",
+        year: "2023",
         graduation: "Bachelor of Technology",
         university: "New York City College Of Technology",
         details: [
@@ -314,6 +375,11 @@ Mock.onGet("/api/skills").reply(config => {
 
 Mock.onGet("/api/portfolios").reply(config => {
   const response = database.portfolios;
+  return [200, response];
+});
+
+Mock.onGet("/api/portfolios2").reply(config => {
+  const response = database.portfolios2;
   return [200, response];
 });
 
