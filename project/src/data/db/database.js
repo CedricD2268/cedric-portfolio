@@ -347,7 +347,7 @@ url: 'https://njanchor.com/'    },
   ],
   contactInfo: {
     phoneNumbers: ['929-372-5015'],
-    emailAddress: ['cedricdouillard08@outlook.com'],
+    emailAddress: ['douillard1234@gmail.com'],
     address: "1429 East 86th Street, Brooklyn, NY 11236, United States"
   }
 }
