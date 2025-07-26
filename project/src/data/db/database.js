@@ -8,8 +8,8 @@ const database = {
     phone: '',
     nationality: 'Haitian',
     language: 'English, Creole',
-    email: '',
-    address: '1429 East 86th Brooklyn New York',
+    email: 'douillard1234@gmail.com',
+    address: 'Brooklyn New York',
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://facebook.com',
